@@ -84,6 +84,9 @@ form.addEventListener('reset', (e) => {
     const bmi = calculateBMI(beratBadan, tinggiBadan);
     const category = getBMICategory(bmi);
     let gender;
+    // form menjadi kosng
+    inputBeratBadan.value = '';
+    inputTinggiBadan.value = '';
         // output display
     bmiResult.style.display = 'none';
     bmiCategory.style.display = 'none';
