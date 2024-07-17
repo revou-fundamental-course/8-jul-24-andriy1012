@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container */
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 40px auto;
+  }
+/* bagian kiri */
+.left-section {
+    width: 50%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+/* bagian kanan */
+.right-section {
+    width: 50%;
+    padding: 20px;
+}
+/* tampilan output */
+.output {
+    margin-top: 20px;
+}
+/* header */
+header {
+
+    padding: 10px;
+
+}
+/* header */
+header h1, header h2 {
+    margin: 0;
+}
+/* form */
+.form{
+    margin-top: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+#input-berat-badan, #input-usia, #input-tinggi-badan {
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.form button {
+   margin-top: 10px;
+}
+/* tombol submit  */
+#biru{
+    background-color:#5CC0DE;
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 5px;
+}
+#form{
+    background-color: #F2F3F5;
+}
+/* hasil dari perhitungan  */
+.output{
+    background-color: #F2F3F5;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 90%;
+    text-align: center;
+}
+/* tombol download */
+#download{
+    background-color:#5CC0DE; 
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 5px;
+}
+#rujuk1{
+        margin-bottom: 10px;    
+  }
+/* tombol  Konsultasi ahli gizi via Aplikasi*/
+#konsultasi{
+    background-color:#5CC0DE;
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 5px;
+}
+/* tombol Registrasi online ahli gizi*/
+#registrasi{
+    background-color:#5CC0DE; 
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 5px;
+}
+.akibat{
+    background-color: #F2F3F5;
+    padding: 10px;  
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* tombol Konsultasi dokter via Aplikasi */
+#dockter{
+    background-color:#5CC0DE; 
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 5px;
+}
+/* tombol Registrasi online Sekarang */
+#region{
+    background-color:#5CC0DE; 
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 5px;
+}
+/* pejelasan */
+#ilang{
+    text-align: center;
+}
+/* footer */
+footer{
+    margin top: 10px;
+    text-align: center;
+}
+/* tampilan destop */
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .left-section, .right-section {
+      width: 100%;
+    }
+    .form {
+      width: 100%;
+    }
+    .output {
+      width: 100%;
+    }
+    .akibat {
+      width: 100%;
+    }
+  }
+  /* tampilan pada handphone */
+  @media only screen and (max-width: 480px) {
+    .form {
+      padding: 10px;
+    }
+    #input-berat-badan, #input-usia, #input-tinggi-badan {
+      width: 100%;
+    }
+    .output {
+      padding: 10px;
+    }
+    .akibat {
+      padding: 10px;
+    }
+  }
