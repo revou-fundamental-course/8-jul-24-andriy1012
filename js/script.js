@@ -90,4 +90,5 @@ form.addEventListener('reset', (e) => {
     genderResult.style.display = 'none';
     hilangkan.style.display = 'block'; //menampilkan elemet html jika data belum di submit
     menghilangkan.style.display = 'block'; //menampilkan elemet html jika data belum di submit
+    penjelasan.style.display = 'none';
 });
