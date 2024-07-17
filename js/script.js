@@ -3,6 +3,7 @@ const inputMan = document.getElementById('section-man');
 const inputWoman = document.getElementById('section-woman');
 const inputBeratBadan = document.getElementById('input-berat-badan');
 const inputTinggiBadan = document.getElementById('input-tinggi-badan');
+const inputUsia = document.getElementById('input-usia');
 const bmiResult = document.getElementById('bmi-result');
 const bmiCategory = document.getElementById('bmi-category');
 const genderResult = document.getElementById('gender-result');
@@ -87,6 +88,7 @@ form.addEventListener('reset', (e) => {
     // form menjadi kosng
     inputBeratBadan.value = '';
     inputTinggiBadan.value = '';
+    inputUsia.value = ''; 
         // output display
     bmiResult.style.display = 'none';
     bmiCategory.style.display = 'none';
